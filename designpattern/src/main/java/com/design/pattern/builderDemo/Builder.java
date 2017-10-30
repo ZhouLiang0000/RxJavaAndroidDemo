@@ -7,8 +7,8 @@ package com.design.pattern.builderDemo;
  * 说明：抽象Builder类
  */
 public abstract class Builder {
-    public abstract void buildBoard(String board);
-    public abstract void buildDisplay(String display);
-    public abstract void buildOs(String os);
+    public abstract Builder setBoard(String board);
+    public abstract Builder setDisplay(String display);
+    public abstract Builder setOs(String os);
     public abstract Computer create();
 }

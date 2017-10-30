@@ -8,23 +8,32 @@ package com.design.pattern.builderDemo;
  */
 public class MacBookBuilder extends Builder{
     private Computer mComputer = new MacBook();
+    private String board;
+    private String display;
+    private String os;
     @Override
-    public void buildBoard(String board) {
-        mComputer.setmBoard(board);
+    public MacBookBuilder setBoard(String board) {
+        this.board = board;
+        return this;
     }
 
     @Override
-    public void buildDisplay(String display) {
-        mComputer.setmDisplay(display);
+    public MacBookBuilder setDisplay(String display) {
+        this.display = display;
+        return this;
     }
 
     @Override
-    public void buildOs(String os) {
-        mComputer.setmOS(os);
+    public MacBookBuilder setOs(String os) {
+        this.os = os;
+        return this;
     }
 
     @Override
     public Computer create() {
+        mComputer.setmBoard(board);
+        mComputer.setmDisplay(display);
+        mComputer.setmOS(os);
         return mComputer;
     }
 }

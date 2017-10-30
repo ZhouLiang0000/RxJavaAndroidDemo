@@ -18,8 +18,9 @@ public class MyClass {
      */
     private static void builderMethod(){
         Builder mBuilder = new MacBookBuilder();
-        Director mDirector = new Director(mBuilder);
-        mDirector.construct("英特尔主板","Retina显示器","Mac OS x 10.10");
+//        Director mDirector = new Director(mBuilder);
+//        mDirector.construct("英特尔主板","Retina显示器","Mac OS x 10.10");
+        mBuilder.setBoard("英特尔主板").setDisplay("Retina显示器").setOs("Mac OS x 10.10").create();
         System.out.print(mBuilder.create().toString());
     }
 
