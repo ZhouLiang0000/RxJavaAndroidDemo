@@ -1,4 +1,4 @@
-package com.design.pattern.factoryDemo;
+package com.design.pattern.factorydemo;
 
 /**
  * 具体的工厂

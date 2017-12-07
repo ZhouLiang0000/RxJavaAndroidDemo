@@ -1,4 +1,4 @@
-package com.design.pattern.factoryDemo;
+package com.design.pattern.factorydemo;
 
 /**
  * Created by zhouliang on 2017/10/19.

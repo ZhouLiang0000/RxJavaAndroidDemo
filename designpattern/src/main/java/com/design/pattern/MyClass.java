@@ -1,15 +1,13 @@
 package com.design.pattern;
 
-import com.design.pattern.builderDemo.Builder;
-import com.design.pattern.builderDemo.Director;
-import com.design.pattern.builderDemo.MacBookBuilder;
-import com.design.pattern.factoryDemo.Factory;
-import com.design.pattern.factoryDemo.FactoryImpl;
-import com.design.pattern.factoryDemo.Q3;
-import com.design.pattern.factoryDemo.Q5;
-import com.design.pattern.stragetyDemo.BusStragety;
-import com.design.pattern.stragetyDemo.SubwayStragety;
-import com.design.pattern.stragetyDemo.TranficCalculator;
+import com.design.pattern.builderdemo.Builder;
+import com.design.pattern.builderdemo.MacBookBuilder;
+import com.design.pattern.factorydemo.Factory;
+import com.design.pattern.factorydemo.FactoryImpl;
+import com.design.pattern.factorydemo.Q3;
+import com.design.pattern.factorydemo.Q5;
+import com.design.pattern.stragetydemo.BusStragety;
+import com.design.pattern.stragetydemo.TranficCalculator;
 
 public class MyClass {
     public static void main(String[] arg) {

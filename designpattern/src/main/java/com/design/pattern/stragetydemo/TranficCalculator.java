@@ -1,4 +1,4 @@
-package com.design.pattern.stragetyDemo;
+package com.design.pattern.stragetydemo;
 
 /**
  * 作者：zhouliang

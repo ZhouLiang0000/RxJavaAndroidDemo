@@ -1,4 +1,4 @@
-package com.design.pattern.builderDemo;
+package com.design.pattern.builderdemo;
 
 /**
  * 作者：zhouliang
